@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+
+.japan h1 {
+    color: #e60012; 
+}
+
+.hongkong h1 {
+    color: #007acc;
+}
+
+.elyu h1 {
+    color: #ff9800; 
+}
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.japan .back-btn {
+    background-color: #e60012;
+}
+
+.hongkong .back-btn {
+    background-color: #007acc;
+}
+
+.elyu .back-btn {
+    background-color: #ff9800;
+}
+
+
+.back-btn:hover {
+    opacity: 0.8;
+}
+
